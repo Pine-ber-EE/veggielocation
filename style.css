@@ -3,6 +3,7 @@ body
     margin: 20px;
     padding: 20px;
     text-align: center;
+    font-family: "Life Savers", serif;
 }
 
 h1
@@ -21,6 +22,8 @@ h1
 
 button
 {
+    font-family: "Life Savers", serif;
+    font-weight: bold;
     background-color: #2b6400;
     color: white;
     margin-block: 5px;
