@@ -1,0 +1,30 @@
+body
+{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1
+{
+    font-weight: bold;
+}
+
+.tab
+{
+    text-align: left;
+    overflow:hidden;
+    border: 1px solid #477c1f;
+    background-color: rgba(31, 225, 24, 0.603);
+    margin-block: 60px;
+}
+
+button
+{
+    background-color: #2b6400;
+    color: white;
+    margin-block: 5px;
+    margin-left: 5px;
+    font-size: 30px;
+    border:none;
+}
