@@ -5,11 +5,18 @@ body
     text-align: center;
     font-family: "Life Savers", serif;
     background-color: #cef2b3;
+    color: #281b04;
 }
 
 h1
 {
     font-weight: bold;
+    margin-top: 10px;
+}
+
+h2
+{
+    margin-top: 20px;
 }
 
 h4
@@ -17,6 +24,7 @@ h4
     line-height: 1.6;
     font-family: "Arvo", serif;
     font-weight: 400;
+    margin-left: 10px;
 }
 
 .normalText
@@ -39,21 +47,21 @@ img
 {
     text-align: left;
     overflow:hidden;
-    border: 1px solid #477c1f;
-    background-color: rgba(31, 225, 24, 0.603);
+    border: 1px solid #368a19;
+    background-color: #79ba61;
     margin-block: 60px;
 }
 
 .tabcontent
 {
-    background-color: rgba(31, 225, 24, 0.603);
+    background-color: #79ba61;
 }
 
 button
 {
     font-family: "Life Savers", serif;
     font-weight: bold;
-    background-color: #2b6400;
+    background-color: #368a19;
     color: white;
     margin-block: 5px;
     margin-left: 5px;
