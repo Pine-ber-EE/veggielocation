@@ -16,7 +16,7 @@ h1
 
 h2
 {
-    margin-top: 20px;
+    margin-top: 1px;
 }
 
 h4
@@ -25,6 +25,7 @@ h4
     font-family: "Arvo", serif;
     font-weight: 400;
     margin-left: 10px;
+    margin-right: 20px;
 }
 
 .normalText
@@ -41,12 +42,14 @@ h4
 img
 {
     margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .tab
 {
     text-align: left;
     overflow:hidden;
+    padding: 10px;
     border: 1px solid #368a19;
     background-color: #79ba61;
     margin-block: 60px;
@@ -55,6 +58,10 @@ img
 .tabcontent
 {
     background-color: #79ba61;
+    background-clip: content-box;
+    border: 1px solid #368a19;
+    border: 100px solid transparent;
+    border-image: url(border.png) 150 round;
 }
 
 button
