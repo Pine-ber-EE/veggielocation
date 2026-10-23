@@ -75,3 +75,18 @@ button
     font-size: 30px;
     border:none;
 }
+
+a:link
+{
+    color:#cceec1;
+}
+
+a:visited
+{
+    color:#255c13;
+}
+
+a:hover
+{
+    color:#fcfdfb;
+}
