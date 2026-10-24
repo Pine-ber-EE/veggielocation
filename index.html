@@ -13,11 +13,11 @@
         <img src="veggie.png" alt="veggietitle" width="700" height="auto">
 
         <div class="tab">
-            <button class="tablinks" onclick="openTab(event,'home')">intro</button>
-            <button class="tablinks" onclick="openTab(event,'biomes')">biomes</button>
-            <button class="tablinks" onclick="openTab(event,'agriculture')">agriculture</button>
-            <button class="tablinks" onclick="openTab(event, 'identification')">identification</button>
-            <button class="tablinks" onclick="openTab(event,'misc metas')">misc metas</button>
+            <button class="tablinks" id="homeB" onclick="openTab(event,'home')">intro</button>
+            <button class="tablinks" id="biomesB" onclick="openTab(event,'biomes')">biomes</button>
+            <button class="tablinks" id="agricultureB" onclick="openTab(event,'agriculture')">agriculture</button>
+            <button class="tablinks" id="identificationB" onclick="openTab(event, 'identification')">identification</button>
+            <button class="tablinks" id="misc metasB" onclick="openTab(event,'misc metas')">misc metas</button>
         </div>
 
         
@@ -26,7 +26,9 @@
             <h2><br>Intro:</h2>
 
             <h4 class="normalText">"What better way to learn stuff than to teach others about it with a website?"<br>
-                This website serves as a beginner's guide to the role of vegetation in geolocation. This should cover some rudementary knowledge about plant identification, geolocation basics, and some random plant metas. Enjoy!</h4>
+                This website serves as a beginner's guide to the role of vegetation in geolocation. This should cover some rudementary knowledge about plant identification, geolocation basics, and some random plant metas. Enjoy!
+            </h4>
+        
         </div>
 
         <div id="biomes" class="tabcontent">
@@ -78,6 +80,18 @@
                 Farmland can easily alter the vegetation and throw off those locating soley based on biomes. This is why it's also important to get famillar with agriculture.
                 <br>The most common crops in the world are sugarcane, corn, rice, and wheat. These, along with some other ones, are discussed below! 
             </h4>
+
+            <div style="display:flex; gap: 10px;">
+            <a href="https://maps.app.goo.gl/MQM9Wat1dQxdeQXE8">
+                <img src="images/sugarcane.png" alt="sugarcane" style="width: 400px; height: auto;">
+            </a>
+            <h4 class="imageText">
+                Sugarcane, with 1.98 billion metric tons produced worldwide, is first in crop production. After harvestation, it is made into biofuel, sugar, and molasses.
+                Places with a prominent sugarcane fields include São Paulo, Brazil; Queensland, Australia; Philippines; and Java, Indonesia.
+            </h4>
+
+            </div>
+
         </div>
 
         <div id="identification" class="tabcontent">

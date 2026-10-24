@@ -6,6 +6,9 @@ body
     font-family: "Life Savers", serif;
     background-color: #cef2b3;
     color: #281b04;
+    background-image: url("back.png");
+    background-position: top center;
+    background-size: 100% auto;
 }
 
 h1
@@ -92,3 +95,27 @@ a:hover
 {
     color:#fcfdfb;
 }
+
+.tablinks-clicked
+{
+    position:relative;
+}
+.tablinks-clicked::before
+{
+    content: "";
+    position: absolute;
+    top: +60%;
+    left: -10px;
+    width: 24px;
+    height: 24px;
+    background-image: url("buttonFlower.png");
+    background-size: 24px 24px;
+    background-position: center;
+}
+/*@keyframes buttonPress 
+{
+    0%
+    {
+
+    }
+}*/
