@@ -99,7 +99,14 @@ a:hover
 .tablinks-clicked
 {
     position:relative;
+    background-color: #276712;
 }
+
+.tablinks
+{
+    position:relative;
+}
+
 .tablinks-clicked::before
 {
     content: "";
@@ -119,3 +126,22 @@ a:hover
 
     }
 }*/
+
+.tablinks:hover
+{
+    background-color: #47a627;
+}
+
+.tablinks:hover::before
+{
+    content: "";
+    position: absolute;
+    top: +70%;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    background-image: url("buttonFlower.png");
+    background-size: 16px 16px;
+    background-position: center;
+    transform: rotate(45deg);
+}

@@ -1,2 +1,2 @@
 # veggielocation
-geoguessing guide for plants
+tldr: its a geoguessing guide for plants
