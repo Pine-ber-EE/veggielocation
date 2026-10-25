@@ -1,3 +1,5 @@
-<b>general location</b>: 
-<br><b>coords</b>: <a href="">[coords]</a>
-<br><b>intended solve explanation</b>: Oh look there's terraces!
+<b>general location</b>: Southwestern Ontario, Canada
+<br><b>coords</b>: <a href="https://maps.app.goo.gl/TcYDBrnP8hMdUgjW8">44.0867302, -81.2839664</a>
+<br><b>intended solve explanation</b>: Using the intersection sign, the location is found to be in Canada. 
+The crop in the image is corn, and using USDA website, it can be found that the majority of corn is produced in Southwestern Ontario. 
+The location can be further narrowed using the 911 civic address number on the green sign.
