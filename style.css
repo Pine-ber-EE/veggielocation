@@ -147,3 +147,59 @@ a:hover
     background-position: center;
     transform: rotate(45deg);
 }
+
+.arrow
+{
+    background-color: #11111100;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+
+.quizImg
+{
+    border: 6px solid;
+    border-color: #563a05;
+    border-radius: 25%;
+}
+
+.quizImgDiv
+{
+    position: relative;
+}
+
+.quizImgDiv::before
+{
+    content:"";
+    top: -18px;
+    left: 100px;
+    position: absolute;
+    width: 115px;
+    height: 40px;
+    background-position: center;
+    background-image: url("moss1.png");
+    background-size: 115px 40px;
+}
+
+.quizImgDiv::after
+{
+    content:"";
+    bottom: -5px;
+    left: 400px;
+    position: absolute;
+    width: 73px;
+    height: 40px;
+    background-position: center;
+    background-image: url("moss2.png");
+    background-size: 73px 40px;
+}
+
+.innerQuiz
+{
+    justify-content: center;
+}
+
+.solutionButton
+{
+    justify-content: center;
+    margin-bottom: 20px;
+}

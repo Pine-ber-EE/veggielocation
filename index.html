@@ -134,8 +134,42 @@
         <div id="resources" class="tabcontent">
             <h2><br>Resources:</h2>
             <h4 class="normalText">
-                An important part of geolocation with plants is identifying the plants themselves. Get fammilar with the types of plants in each region or biome, and work from there! <a href="https://www.inaturalist.org/">iNaturalist</a> is a pretty reliable and accurate plant identifier for geolocation.
+                An important part of geolocation with plants is identifying the plants themselves. Get fammilar with the types of plants in each region or biome, and work from there! <a href="https://www.inaturalist.org/">iNaturalist</a> is a pretty reliable and accurate plant identifier for geolocation.<br><br>
+                <a href="https://www.fas.usda.gov/data/production">USDA</a> has some nice resources about agriculture distribution and maps of crop density in each country. <br><br>
+                <a href="https://www.plonkit.net/guide">Plonk It</a> is just an overall excellent guide for geoguessr.
             </h4>
+            <h2>Practice:</h2>
+            <div class="practice">
+                <h4>
+                    A couple of practice locations that can test your plant geolocation skills!
+                </h4>
+                <button id="startButton">
+                    start!
+                </button>
+                <h4 id="quizText" style="display: none;">
+                    quiz 1/10
+                </h4>
+                <div style="display: flex; gap: 10px;" class="innerQuiz">
+                    <button class="arrow" id="leftArrow" style="display: none;">
+                        <img src="left.png" alt="left" width="60px" height="auto">
+                    </button>
+                    <div id="quizDiv">
+                        <img class="quizImg" src="" alt="quizImage" id="quizImage" style="display: none;" width="500 px" height="auto">
+                    </div>
+                    <button class="arrow" id="rightArrow" style="display: none;">
+                        <img src="right.png" alt="right" width="60px" height="auto">
+                    </button>
+                </div>
+                <div style="display: flex;" class="solutionButton">
+                <button class="solutionButton" style="display: none;" id="solutionButton">
+                    view answer
+                </button>
+                </div>
+                <h4 id="solutionText" style="display: none;">
+
+                </h4>
+
+            </div>
             <!--<br>Here are some resources along with some plant identification tools:<br>-->
         </div>
 

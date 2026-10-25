@@ -1,0 +1,3 @@
+<b>general location</b>: 
+<br><b>coords</b>: <a href="">[coords]</a>
+<br><b>intended solve explanation</b>: Oh look there's terraces!
