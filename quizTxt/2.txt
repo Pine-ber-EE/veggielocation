@@ -1,4 +1,4 @@
 <b>general location</b>: Northern NT, Australia
 <br><b>coords</b>: <a href="https://maps.app.goo.gl/WiVET1PaMZLCLaqA8">-14.7718507, 132.8749193</a>
-<br><b>intended solve explanation</b>: First identify the Eucalyptus trees by the road and realize that this is in Australia. 
+<br><b>intended solve explanation</b>: First, identify the Eucalyptus trees by the road and realize that this is in Australia. 
 Then, using the Australia guide from Plonk It, find the termite mound meta and search in Northern Australia.

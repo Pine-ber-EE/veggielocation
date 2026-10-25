@@ -1,4 +1,4 @@
 <b>general location</b>: Al Kaburah, Al Batinah North Governorate, Oman
 <br><b>coords</b>: <a href="https://maps.app.goo.gl/EmzcRJ6Ci3oyCykRA">23.9912544, 57.0822652</a> 
-<br><b>intended solve explanation</b>: To start off, this place can be identified as part of a desert biome (and most likely in the middle east because of the archetechure) even with it's vegetation due to the arid climate. From there, identify the palms as date palms and the Oman trash can. 
-Then, the information about Oman trash cans and date palm from the Plonk It to narrow the location down to Al Kaburah, Al Batinah North Governorate.
+<br><b>intended solve explanation</b>: To start off, this place can be identified as part of a desert biome (and most likely in the middle east because of the archetechure), even with it's vegetation, due to the arid climate. From there, identify the palms as date palms and the Oman trash can. 
+Then, the information about Oman trash cans and date palms from the Oman Plonk It guide narrowed the location down to Al Kaburah, Al Batinah North Governorate.
