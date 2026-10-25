@@ -51,10 +51,12 @@ img
 .tab
 {
     text-align: left;
+    display: flex;
     overflow:hidden;
+    justify-content: center;
     padding: 10px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
     border: 1px solid #368a19;
     background-color: #79ba61;
     margin-block: 50px;
@@ -64,7 +66,7 @@ img
 {
     background-color: #79ba61;
     background-clip: content-box;
-    border: 1px solid #368a19;
+    border: 5px solid #368a19;
     border: 100px solid transparent;
     border-image: url(border.png) 150 round;
 }
@@ -75,8 +77,8 @@ button
     font-weight: bold;
     background-color: #368a19;
     color: white;
-    margin-block: 5px;
-    margin-left: 5px;
+    margin-block: 10px;
+    margin-left: 10px;
     font-size: 30px;
     border:none;
 }
