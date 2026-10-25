@@ -19,6 +19,7 @@
             <button class="tablinks" id="agricultureB" onclick="openTab(event,'agriculture')">agriculture</button>
             <button class="tablinks" id="misc metasB" onclick="openTab(event,'misc metas')">misc metas</button>
             <button class="tablinks" id="resourcesB" onclick="openTab(event, 'resources')">resources</button>
+            <button class="tablinks" id="practiceB" onclick="openTab(event, 'practice')">practice</button>
         </div>
 
         
@@ -27,7 +28,7 @@
             <h2><br>Intro:</h2>
 
             <h4 class="normalText">"What better way to learn stuff than to teach others about it with a website?"<br>
-                This website is a beginner's guide to vegetation's role in geolocation. It covers basic plant identification, geolocation basics, and some random plant metadata. Enjoy!<br><br>PS: Test your geolocation skills with the practice locations under resources!
+                This website is a beginner's guide to vegetation's role in geolocation. It covers basic plant identification, geolocation basics, and some random plant metadata. Enjoy!<br><br>PS: Test your geolocation skills with some practice locations under the practice tab!
             </h4>
         
         </div>
@@ -41,7 +42,7 @@
                 <img src="images/grasslands.png" alt="grassland" style="width: 400px; height: auto;">
             </a>
             <h4 class="imageText">
-                Grasslands:<br>
+                <b>Grasslands</b>:<br>
                 Split into sub-categories of tropical and temperate, grasslands are characterized by flat land and grass. Well known grasslands include the Pampas (South America), Veldt (South Africa), Steppe (Eurasia), and Great Plains (US). 
             </h4>
             </div>
@@ -51,7 +52,7 @@
                 <img src="images/rainforests.png" alt="rainforest" style="width: 400px; height: auto;">
             </a>
             <h4 class="imageText">
-                Rainforests:<br>
+                <b>Rainforests</b>:<br>
                 Like grasslands, they are also split into tropical rainforests and temperate rainforests. They are characterized by high humidity, layers of vegetation, and (sometimes) tropical plants.
             </h4>
             </div>
@@ -61,7 +62,7 @@
                 <img src="images/deserts.png" alt="desert" style="width: 400px; height: auto;">
             </a>
             <h4 class="imageText">
-                Deserts:<br>
+                <b>Deserts</b>:<br>
                 Dry, arid, sandy. Plant life is naturally scarce and mainly consists of cacti and shrubs. Well known deserts include the Sahara, Arabian, and Chihuahuan Deserts.
             </h4>
             </div>
@@ -71,7 +72,7 @@
                 <img src="images/tempfor.png" alt="temperate forest" style="width: 400px; height: auto;">
             </a>
             <h4 class="imageText">
-                Temperate Forest:<br>
+                <b>Temperate Forest</b>:<br>
                 Local deciduous (vegetation that shed and grow their leaves throughout the four seasons) plants along with conifers. Prominent in Central/Western Europe, Eastern North America, and Northern Asia.
             </h4>
             </div>
@@ -135,10 +136,45 @@
             <h2><br>Resources:</h2>
             <h4 class="normalText">
                 An important part of geolocation with plants is identifying the plants themselves. Get familiar with the types of plants in each region or biome, and work from there! <a href="https://www.inaturalist.org/">iNaturalist</a> is a pretty reliable and accurate plant identifier for geolocation.<br><br>
-                <a href="https://www.fas.usda.gov/data/production">USDA</a> has some nice resources about agriculture distribution and maps of crop density in each country. <br><br>
+                After identifying the crop, use the <a href="https://www.fas.usda.gov/data/production">USDA website</a> to find more information on where it grows! It has some nice resources about agriculture distribution and maps of crop density in each country. <br><br>
                 <a href="https://www.plonkit.net/guide">Plonk It</a> is just an overall excellent guide for geoguessr.
             </h4>
-            <h2>Practice:</h2>
+            </div>
+            <!--<br>Here are some resources along with some plant identification tools:<br>-->
+        </div>
+
+        <div id="misc metas" class="tabcontent">
+            <h2><br>Misc Metas:</h2>
+
+            <div style="display:flex; gap: 10px;">
+            <a href="https://maps.app.goo.gl/MQM9Wat1dQxdeQXE8">
+                <img src="images/eucalyptus.png" alt="eucalyptus" style="width: 400px; height: auto;">
+            </a>
+            <h4 class="imageText">
+                Eucalyptus trees often grow on Australian roadsides. These trees have a distinct bark that sheds and leaves a white, smooth underbark<br>
+            </h4>
+            </div>
+
+            <div style="display:flex; gap: 10px;">
+            <a href="https://maps.app.goo.gl/r4bEux3NxsAoeMns5">
+                <img src="images/terrace.png" alt="terrace" style="width: 400px; height: auto;">
+            </a>
+            <h4 class="imageText">
+                Terraces are stair-shaped farmland that helps with irrigation and prevents erosion. They are mainly located in East and Southeasy Asia and Peru (It's more of a historical thing in Peru).
+            </h4>
+        </div>
+
+            <div style="display:flex; gap: 10px;">
+                <a href="https://maps.app.goo.gl/PdNhw8FfEMJFE5A36">
+                    <img src="images/treetrunk.png" alt="white paint on tree trunks" style="width: 400px; height: auto;">
+                </a>
+                <h4 class="imageText">
+                    Lots of trees in Ukraine (and some other Eastern European countries) have their tree trunks painted white. This is done sometimes for pest avoidance and other times as part of a tradition.
+                </h4>
+            </div>   
+        </div>
+        <div id="practice" class="tabcontent">
+            <h2><br>Practice:</h2>
             <div class="practice">
                 <h4>
                     A couple of practice locations that can test your plant geolocation skills!
@@ -168,70 +204,7 @@
                 <h4 id="solutionText" style="display: none;">
 
                 </h4>
-
-            </div>
-            <!--<br>Here are some resources along with some plant identification tools:<br>-->
-        </div>
-
-        <div id="misc metas" class="tabcontent">
-            <h2><br>Misc Metas:</h2>
-
-            <div style="display:flex; gap: 10px;">
-            <a href="https://maps.app.goo.gl/MQM9Wat1dQxdeQXE8">
-                <img src="images/eucalyptus.png" alt="eucalyptus" style="width: 400px; height: auto;">
-            </a>
-            <h4 class="imageText">
-                Eucalyptus trees often grow on Australian roadsides. These trees have a distinct bark that sheds and leaves a white, smooth underbark<br>
-            </h4>
-            </div>
-
-            <div style="display:flex; gap: 10px;">
-            <a href="https://maps.app.goo.gl/r4bEux3NxsAoeMns5">
-                <img src="images/terrace.png" alt="terrace" style="width: 400px; height: auto;">
-            </a>
-            <h4 class="imageText">
-                Terraces are stair-shaped farmland that helps with irrigation and prevents erosion. They are mainly located in East and Southeasy Asia and Peru (It's more of a historical thing in Peru).
-            </h4>
-            </div>
-
-            <div style="display:flex; gap: 10px;">
-                <a href="https://maps.app.goo.gl/PdNhw8FfEMJFE5A36">
-                    <img src="images/treetrunk.png" alt="white paint on tree trunks" style="width: 400px; height: auto;">
-                </a>
-                <h4 class="imageText">
-                    Lots of trees in Ukraine (and some other Eastern European countries) have their tree trunks painted white. This is done sometimes for pest avoidance and other times as part of a tradition.
-                </h4>
-            </div>
-            
-        </div>
-
-    <!-- 
-        notes/important info for plant geoguessr
-
-        -Biomes (8th grade science lol)!
-            -tropical rainforest
-            -temperate
-                -4 seasons
-            -taiga
-                -Those trees
-            -savanna
-                -Dry
-                -flat ground
-            -grassland
-            -deserts
-            -tundra
-        
-        -misc metas
-            -eucalyptus by the road in australia
-            -cabbage looking vegetation in hokkaido
-            -ukrain has base of tree trunks painted white
-            -terraces!
-            -
-        -other stuff:
-        -locations of the same place can look very different because of changes in seasons, lighting, camera, etc!
-        
-        other resources (most of them being my sources lol):
-
-    -->
+                
+         </div>
     </body>
 </html>

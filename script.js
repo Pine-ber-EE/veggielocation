@@ -19,7 +19,6 @@ for(i=1;i<tabcontent.length;i++)
     tabcontent[i].style.display="none"
 }
 tablink[0].classList.add("tablinks-clicked");
-console.log(tablink[0]);
 
 start.addEventListener('click', () => {
     quiz.innerHTML=(quizText);
@@ -38,9 +37,7 @@ start.addEventListener('click', () => {
 left.addEventListener('click', () => {
     quizNum = quizNum + 4;
     quizNumber = quizNum%5+1;
-    console.log(quizNum);
     quizText = "location "+quizNumber+"/5";
-    console.log(quizText);
     quiz.innerHTML = (quizText);
     src = "quizImg/"+quizNumber+".png"
     quizImg.src = src;
@@ -52,12 +49,9 @@ left.addEventListener('click', () => {
 right.addEventListener('click', () => {
     quizNum = quizNum + 1;
     quizNumber = quizNum%5+1;
-    console.log(quizNum);
     quizText = "location "+quizNumber+"/5";
-    console.log(quizText);
     quiz.innerHTML = (quizText);
     src = "quizImg/"+quizNumber+".png";
-    console.log(src);
     quizImg.src = src;
     quizImg.style.display = "block";
     solution.style.display = "block";
